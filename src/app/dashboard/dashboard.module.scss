@@ -1,0 +1,17 @@
+@import "src/styles/mixins";
+
+$primary-color: green;
+
+.dashboard {
+  h1 {
+    background-color: red;
+  }
+
+  @include sm-device {
+    background-color: yellow;
+  }
+}
+
+:export {
+  primaryColor: $primary-color;
+}

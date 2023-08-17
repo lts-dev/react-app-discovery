@@ -1,0 +1,11 @@
+@mixin sm-device {
+  @media (max-width: 420px) {
+    @content;
+  }
+}
+
+@mixin md-device {
+  @media screen and (max-width: 1280px) {
+    @content;
+  }
+}
